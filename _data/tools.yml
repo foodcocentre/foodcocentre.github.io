@@ -1,0 +1,17 @@
+- name: Emulsifiers Tool
+  description: Tool for exploring emulsifiers in food formulations.
+  maintainer: James Gillespie
+  stable_version: v0.1.0
+  stable_repo: https://github.com/foodcocentre/emulsifiers-tool
+  latest_repo: https://github.com/jgillespie93/emulsifiers-tool
+  app_url:
+  doi:
+
+- name: Reranker Mapping
+  description: Mapping tool using reranking models.
+  maintainer: James Gillespie
+  stable_version: v0.1.0
+  stable_repo: https://github.com/foodcocentre/reranker-mapping
+  latest_repo: https://github.com/jgillespie93/reranker-mapping
+  app_url:
+  doi:
