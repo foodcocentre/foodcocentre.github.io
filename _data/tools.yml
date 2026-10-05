@@ -4,7 +4,7 @@
   stable_version: v0.1.0
   stable_repo: https://github.com/foodcocentre/emulsifiers-tool
   latest_repo: https://github.com/jgillespie93/emulsifiers-tool
-  app_url:
+  app_url: https://emulsifiers.streamlit.app
   doi:
 
 - name: Reranker Mapping
