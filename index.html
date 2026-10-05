@@ -1,0 +1,28 @@
+---
+layout: default
+title: Tools
+---
+
+<section class="hero">
+  <h1>Research tools</h1>
+  <p>Open-source tools developed by researchers at the Co-Centre for Sustainable Food Systems. Each tool has a stable release hosted here, plus a link to the latest development version.</p>
+</section>
+
+<section class="grid">
+{% for tool in site.data.tools %}
+  <article class="card">
+    <h2>{{ tool.name }}</h2>
+    <p>{{ tool.description }}</p>
+    <div class="meta">
+      Maintainer: {{ tool.maintainer }}<br>
+      Stable: <span class="badge">{{ tool.stable_version }}</span>
+    </div>
+    <div class="actions">
+      {% if tool.app_url %}<a class="btn btn-primary" href="{{ tool.app_url }}">Open app</a>{% endif %}
+      <a class="btn btn-primary" href="{{ tool.stable_repo }}/releases">Stable release</a>
+      <a class="btn btn-outline" href="{{ tool.latest_repo }}">Latest dev</a>
+      {% if tool.doi %}<a class="btn btn-outline" href="https://doi.org/{{ tool.doi }}">Cite (DOI)</a>{% endif %}
+    </div>
+  </article>
+{% endfor %}
+</section>
