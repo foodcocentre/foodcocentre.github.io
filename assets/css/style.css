@@ -11,7 +11,19 @@
 }
 
 * { box-sizing: border-box; }
-body { margin: 0; font-family: var(--font); color: var(--text); background: var(--cream); line-height: 1.65; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--cream);
+  line-height: 1.65;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+main { flex: 1 0 auto; width: 100%; }
 .wrap { max-width: 1050px; margin: 0 auto; padding: 0 1.25rem; }
 a { color: var(--dark); text-decoration-color: var(--green); text-underline-offset: 3px; }
 
