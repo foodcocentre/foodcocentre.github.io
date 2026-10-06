@@ -15,3 +15,12 @@
   latest_repo: https://github.com/jgillespie93/reranker-mapping
   app_url:
   doi: https://doi.org/10.25383/city.30887741
+
+- name: Sustainability Compass
+  description: Interactive food systems outcomes tool.
+  maintainer: Yunan Li
+  stable_version: v0.1.0
+  stable_repo:
+  latest_repo:
+  app_url: https://peptide.ucd.ie/cocenter/d3viz2
+  doi:
