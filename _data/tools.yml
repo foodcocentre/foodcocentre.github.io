@@ -20,7 +20,7 @@
   description: Interactive food systems outcomes tool.
   maintainer: Yunan Li
   stable_version: v0.1.0
-  stable_repo:
-  latest_repo:
+  stable_repo: https://github.com/YunanLi-wq/Co-CenterDataVisualization
+  latest_repo: https://github.com/YunanLi-wq/Co-CenterDataVisualization
   app_url: https://peptide.ucd.ie/cocenter/d3viz2
   doi:
