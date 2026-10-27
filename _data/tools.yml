@@ -24,3 +24,12 @@
   latest_repo: https://github.com/YunanLi-wq/Co-CenterDataVisualization
   app_url: https://peptide.ucd.ie/cocenter/d3viz2
   doi:
+  
+- name: PeptidomeR 
+  description: Tool for Analysing Peptidomics Data.
+  maintainer: Indrani Bera
+  stable_version: v0.1.0
+  stable_repo: https://github.com/indrani2611/PeptidomeR
+  latest_repo: https://github.com/indrani2611/PeptidomeR
+  app_url: https://peptide.ucd.ie/peptidomer/
+  doi:
